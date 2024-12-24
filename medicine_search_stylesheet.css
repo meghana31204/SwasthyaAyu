@@ -1,0 +1,21 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 30px;
+	background-color: #0F67B1;
+}
+
+.left-img, .right-img {
+    width: 5%; 
+    height: auto;
+	background-size: cover;	
+}
+
+.left-img {
+    align-self: flex-start;
+}
+
+.right-img {
+    align-self: flex-end;
+}
